@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1d2733;
+    padding: 20px 0;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1d2733;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    text-align: left;
+}
+.hero img{
+    margin-right: 0px;
+    background-color: #5a6978;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    float: right;
+
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #b0b0b0;
+    text-align: left;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 4px 4px 40px #5a6978;
+    float: right;
+
+
+}
+
+.information {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.information .info-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.information .info-grid img{
+    margin-left: 15px;
+    border-radius: 25px;
+}
+.information .info-box {
+    width: 23%;
+    border: 2px solid #007bff;
+    padding: 20px;
+    margin-right: 35px;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.quote p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote .author {
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #1d2733;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0f1722;
+    color: #aaa;
+    padding: 20px 0;
+    text-align: center;
+}
